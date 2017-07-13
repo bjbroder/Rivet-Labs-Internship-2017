@@ -36,3 +36,11 @@ def median(table,column):
 def stats(table, column):
     return max(table, column), min(table, column), mean(table, column), median(table, column), mode(table, column), \
     stddev(table, column)
+
+def col(table, column):
+    rows = con.execute("select " + column + " from " + table)
+    lis = []
+    for row in rows:
+        print(row)
+        lis.append(row)
+    return lis
