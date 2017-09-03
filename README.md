@@ -8,7 +8,7 @@ This was done first using the column’s summary statistics (mean, max, min, ran
 Best fit distributions for data taken quarterly for two quarters from a time series:
 
   |Alabama Wage Data|Quarter 3, 2016|Quarter 4, 2016|
-  | ------------- | ------------- |
+  | ------------- | ------------- | -----------|
   |lq_qtrly_estabs	|'cauchy'	|'dgamma'|
   |lq_month1_emplvl	|'dgamma'	 |'johnsonsu'|
   |lq_month2_emplvl	|'dgamma'	|'cauchy'|
