@@ -97,6 +97,8 @@ Because the data used to test the column similarity methods was drawn from the s
 
 We decided to increase the efficiency of this process by using bitwise comparisons. This was first attempted with the BitVector package for Python using a universal column vocabulary. This package, however, still requires more operations than mathematically necessary because the bitsets are very sparse but contain runs. Therefore, we converted the same tables to MutableSparseIntSets and SemiSparseIntSets to see if they were more suited to these types of comparisons. Running the tables through each of these packages showed that using SemiSparseIntSets was the superior method for efficiently determining similarity between very large sets of data.
 
+Testing runtime (seconds) of BitVector, MutableSparseIntSet, and SemiSparseMutableIntSet packages with varying numbers of tables and columsn per table:
+
 |	 |100 tables	|1000 tables	|10000 tables	|25000 tables	|50000 tables	|75000 tables	|100000 tables|
 |---|---|---|---|---|---|---|---|
 |100 columns|  |  |  |  |  |  |  |							
