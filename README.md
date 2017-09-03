@@ -38,7 +38,8 @@ Welch's t-test results for Alabama wage data taken quarterly over four years fro
     Columns that appear dissimilar over time:
     
     Columns that sometimes appear similar and sometimes appear dissimilar: 
-    (The first value in the bracket represents the instances when the columns over time "passed" the t-test, the second value represents the "failed" tests)
+    (The first value in the bracket represents the instances when the columns over time "passed" the t-test;
+    the second value represents the "failed" tests)
      > lq_avg_wkly_wage:[6, 9]
      > lq_total_qtrly_wages:[8, 7]
      > oty_month1_emplvl_pct_chg:[10, 5]
