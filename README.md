@@ -5,6 +5,7 @@ This code was developed during the summer of 2017 for Rivet Labs. The goal of th
 This was done first using the column’s summary statistics (max, min, mean, median, mode, standard deviation), then by determining each column’s best fit distribution, and later using Welsh’s t-test. Each of these tests failed to show similarity due to variance between tables, even when the data was drawn from the exact same distribution (ie as part of a time series). Because of these results, we were forced to reject the notion that statistical methods such as the t-test are accurately able to give the probability that the columns were drawn from the same distribution and are therefore similar. 
 
 Summary statistics for for two quarters from a time series:
+
 (Max, Min, Mean, Median, Mode, Standard Deviation)
 
     Alabama Wage Data, Quarter 1, 2016: 
@@ -64,6 +65,7 @@ Best fit distributions for data taken quarterly for two quarters from a time ser
 
 
 Welch's t-test results for Alabama wage data taken quarterly over four years from a time-series:
+
 (Columns over time were considered to be "similar" if they returned a pvalue greater than 0.05) 
 
     Columns that appear similar over time:
