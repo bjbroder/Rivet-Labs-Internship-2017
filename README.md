@@ -82,4 +82,4 @@ We decided to increase the efficiency of this process by using bitwise compariso
 |MutableSparse	|2.243663899	|18.34730918	|169.0528138	|385.4876877	|729.5381877	|1268.196914	|2779.936492|
 |SemiSparse	|2.562875087	|19.99145442	|180.815371	|359.69897	|596.4114277	|490.1489115	|482.0160861|
 
-![Alt text](https://github.com/bjbroder/Summer-2017/blob/master/bv%20vs%20msis.jpg "Optional Title") https://github.com/bjbroder/Summer-2017/blob/master/bv%20vs%20msis.jpg
+![BitVectors vs MutableSparseIntSets vs SemiSparseMutableIntSets](https://github.com/bjbroder/Summer-2017/blob/master/bv%20vs%20msis.jpg "BitVectors vs MutableSparseIntSets vs SemiSparseMutableIntSets") 
