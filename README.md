@@ -2,9 +2,10 @@
 
 This code was developed during the summer of 2017 for Rivet Labs. The goal of this project was to find a way to determine if two tables uploaded to the system were the same or similar. Initially, we attempted to determine similarity numerically – according to the content in each of the columns of the two tables. For each table, we iterated through every column and selected only the values that could be parsed as real numbers. If those numbers constituted at least 90% of the column’s total values, the column was considered “numeric” and was used to determine numerical similarity by looking at column similarity methods. 
 
-This was done first using the column’s summary statistics (mean, max, min, range, standard deviation), then by determining each column’s best fit distribution, and later using Welsh’s t-test. Each of these tests failed to show similarity due to variance between tables, even when the data was drawn from the exact same distribution (ie as part of a time series). Because of these results, we were forced to reject the notion that statistical methods such as the t-test are accurately able to give the probability that the columns were drawn from the same distribution and are therefore similar. 
+This was done first using the column’s summary statistics (max, min, mean, median, mode, standard deviation), then by determining each column’s best fit distribution, and later using Welsh’s t-test. Each of these tests failed to show similarity due to variance between tables, even when the data was drawn from the exact same distribution (ie as part of a time series). Because of these results, we were forced to reject the notion that statistical methods such as the t-test are accurately able to give the probability that the columns were drawn from the same distribution and are therefore similar. 
 
 Summary statistics for for two quarters from a time series:
+(Max, Min, Mean, Median, Mode, Standard Deviation)
 
     Alabama Wage Data, Quarter 1, 2016: 
      > lq_qtrly_estabs - (44.530000000000001, 0.0, 2.1738356378001873, 1.0, 2.3658741444158093, 5.5973604672152373)
