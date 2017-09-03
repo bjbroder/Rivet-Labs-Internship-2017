@@ -15,20 +15,19 @@ Best fit distributions for data taken quarterly for two quarters from a time ser
   |lq_month3_emplvl	|'dweibull'	|'dgamma'|
   |lq_total_qtrly_wages	|'gennorm'	|'cauchy'|
   |lq_taxable_qtrly_wages	|'alpha'	|'alpha'|
+  |lq_qtrly_contributions	|'t'	|'exponnorm'|
+  |lq_avg_wkly_wage	|'dgamma'	|'gennorm'|
+  |oty_qtrly_estabs_pct_chg	|'gennorm'	|'dweibull'|
+  |oty_month1_emplvl_pct_chg	|'t'|	'gennorm'|
+  |oty_month2_emplvl_pct_chg	|'nct'	|'nct'|
+  |oty_month3_emplvl_pct_chg	|'laplace'	|'laplace'|
+  |oty_total_qtrly_wages_pct_chg	|'tukeylambda'	|'hypsecant'|
+  |oty_taxable_qtrly_wages_pct_chg	|'gengamma'	|'exponweib'|
+  |oty_qtrly_contributions_pct_chg	|'pearson3'	|'foldnorm'|
+  |oty_avg_wkly_wage_pct_chg	|'johnsonsu'	|'burr'|
 
-  lq_qtrly_contributions	't'	'exponnorm'
-  lq_avg_wkly_wage	'dgamma'	'gennorm'
-  oty_qtrly_estabs_pct_chg	'gennorm'	'dweibull'
-  oty_month1_emplvl_pct_chg	't'	'gennorm'
-  oty_month2_emplvl_pct_chg	'nct'	'nct'
-  oty_month3_emplvl_pct_chg	'laplace'	'laplace'
-  oty_total_qtrly_wages_pct_chg	'tukeylambda'	'hypsecant'
-  oty_taxable_qtrly_wages_pct_chg	'gengamma'	'exponweib'
-  oty_qtrly_contributions_pct_chg	'pearson3'	'foldnorm'
-  oty_avg_wkly_wage_pct_chg	'johnsonsu'	'burr'
 
-
-Welch's t-test results for data taken quarterly over four years from a time-series:
+Welch's t-test results for Alabama wage data taken quarterly over four years from a time-series:
 (Columns over time were considered to be "similar" if they returned a pvalue greater than 0.05) 
 
     Columns that appear similar over time:
