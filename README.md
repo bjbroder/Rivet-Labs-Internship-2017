@@ -1,4 +1,4 @@
-# Summer-2017
+# Rivet Labs Internship 2017
 
 This code was developed during the summer of 2017 for Rivet Labs. The goal of this project was to find a way to determine if two tables uploaded to the system were the same or similar. Initially, we attempted to determine similarity numerically – according to the content in each of the columns of the two tables. For each table, we iterated through every column and selected only the values that could be parsed as real numbers. If those numbers constituted at least 90% of the column’s total values, the column was considered “numeric” and was used to determine numerical similarity by looking at column similarity methods. 
 
